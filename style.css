@@ -12,12 +12,12 @@
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     margin: 15px;
 }
 .logo img{
-    width: 200px;
+    width: 170px;
 }
 
 .nav-list{
@@ -29,6 +29,7 @@ nav{
     list-style: none;
   
     margin-top: 12px;
+    margin-left: 200px;
 }
 .nav-list ul li a{
     text-decoration: none;
@@ -83,18 +84,20 @@ nav{
 .hero-text p{
     line-height: 30px;
     margin-bottom: 15px;
+    width: 60%;
+    font-size: 10px;
 }
 .btn1{
-    margin-left: 20%;
+    margin-top: 25px;
     padding: 7px 15px;
-    border-radius: 20px 10px;
+    border-radius: 5px 10px;
     border: none;
     background-color: #101A24;
     color: white;
 }
 .btn2{
     padding: 7px 25px;
-    border-radius: 20px 10px;
+    border-radius: 5px 10px;
     border: none;
     background-color:#EA6D27;
     color:white;
@@ -115,4 +118,20 @@ nav{
     position: absolute;
     bottom: 10px;
     left: -150px;
+}
+/* 
+social media */
+
+.social-media{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.social-media img{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.social-media .facebook{
+    width: 29px;
 }
